@@ -2,7 +2,12 @@
 Collection of Claude Cowork skills for venture capital workflows. 
 
 ## How to Use
-[2–3 lines: clone repo, drop skill folder into Cowork, point Claude at it]
+1. clone repo
+3. drop skill folder into Cowork
+4. point Claude at it
+5. change input files to your personal context
+6. Go
+
 
 ## Principles
 1. **Automation vs Co-Worker mode** — every skill declares its execution mode. 
