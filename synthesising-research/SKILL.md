@@ -4,9 +4,9 @@ description: >
   Condenses batches of research reading — reports, articles, expert call transcripts,
   clippings, DD notes — into a structured internal insight memo. Output: a single
   markdown memo with executive 'so what', key signals, contrarian angles, thesis
-  implications, and action items. Trigger when Simon says 'synthesise this reading',
+  implications, and action items. Trigger when Josh says 'synthesise this reading',
   'pull insights from these docs', 'weekly research digest', 'summarise what I've been
-  reading', 'turn this into a memo', or 'what's the so-what'. Also use when Simon shares
+  reading', 'turn this into a memo', or 'what's the so-what'. Also use when Josh shares
   a folder of research, multiple PDFs, or a batch of clippings and asks for synthesis or
   insight extraction — even without an explicit trigger phrase. Sits between wiki-ingest
   (filing action) and vc-output-packaging (stakeholder delivery): raw reading in,
@@ -18,9 +18,9 @@ description: >
 # Synthesising Research
 
 ## Triggers
-Use this skill when Simon says: "synthesise this reading", "pull insights from these docs",
+Use this skill when Josh says: "synthesise this reading", "pull insights from these docs",
 "weekly research digest", "summarise what I've been reading", "turn this into a memo",
-"what's the so-what". Also trigger when Simon shares a folder of research, multiple PDFs,
+"what's the so-what". Also trigger when Josh shares a folder of research, multiple PDFs,
 or a batch of clippings and asks for synthesis — even if "synthesis" is not the word used.
 
 Do not trigger for:
@@ -50,21 +50,21 @@ Before doing anything else, read:
 
 ### Step 1 — Gate 1: Thesis frame
 
-Check whether Simon has provided a sector or thesis frame.
+Check whether Josh has provided a sector or thesis frame.
 
-If not, ask before proceeding:
+If not, ask before proceeding and provide best guess options based on the context:
 > "What sector or thesis frame should anchor this synthesis? (e.g. 'insurtech distribution', 'climate risk modelling', or 'general scan — no frame')"
 
-Do not proceed until you have a frame or Simon explicitly declines to provide one.
+Do not proceed until you have a frame or Josh explicitly declines to provide one.
 
 ### Step 2 — Gate 2: Input confirmation
 
-Scan the specified folder or source list. Present to Simon:
+Scan the specified folder or source list. Present to Josh:
 - List of sources found (file names, types, approximate date range if detectable)
 - Any sources that look unreadable or out of scope
 - If a time window was specified, which sources fall within it
 
-Ask Simon to confirm the source set. Simon can add, remove, or adjust scope before synthesis begins. Only proceed once confirmed.
+Ask Josh to confirm the source set. Josh can add, remove, or adjust scope before synthesis begins. Only proceed once confirmed.
 
 ### Step 3 — Read all sources
 
@@ -97,7 +97,7 @@ Follow the template in `references/synthesis-structure.md` exactly. All sections
 After drafting the memo, ask:
 > "Do you want a short 'Insight Tweets' block added — 1–3 tweetable insights for internal sharing? Each under 140 characters, no jargon, no context assumed."
 
-Add the block only if Simon confirms. Do not add it speculatively.
+Add the block only if Josh confirms. Do not add it speculatively.
 
 ### Step 7 — Save and Gate 4: Review
 
@@ -107,13 +107,13 @@ Save the memo to `Resources/Output files/` following the global naming conventio
 Present the file link, then ask:
 > "Does this land? Anything to sharpen or cut?"
 
-Iterate until Simon signs off. A memo is not finished until Simon explicitly confirms it is.
+Iterate until Josh signs off. A memo is not finished until Josh explicitly confirms it is.
 
 ---
 
 ## Human-in-the-Loop Gates Summary
 
-| Gate | Trigger | What Simon decides |
+| Gate | Trigger | What Josh decides |
 |------|---------|-------------------|
 | Gate 1 | No thesis frame provided | Provide frame or proceed as general scan |
 | Gate 2 | Before synthesis begins | Confirm/adjust source set and time window |
@@ -126,7 +126,7 @@ Iterate until Simon signs off. A memo is not finished until Simon explicitly con
 
 - **Single source input** — proceed but open the memo with: "⚠️ Thin input: this synthesis is based on a single source. Conclusions should be treated as preliminary." 
 - **No thesis frame after prompting** — proceed as general scan; note at top of memo that no thesis frame was applied.
-- **signal-vs-noise-heuristics.md missing** — use the built-in defaults in the template file. Flag to Simon: "References/signal-vs-noise-heuristics.md not found — using default heuristics. Customise that file to tune signal filtering to your criteria."
+- **signal-vs-noise-heuristics.md missing** — use the built-in defaults in the template file. Flag to Josh: "References/signal-vs-noise-heuristics.md not found — using default heuristics. Customise that file to tune signal filtering to your criteria."
 - **Conflicting sources** — surface the conflict explicitly in the relevant section. Do not silently pick the higher-authority source. Format: "Source A states X [citation]; Source B contradicts this, stating Y [citation]. This has not been resolved."
-- **No sources found in specified folder** — stop immediately. Tell Simon the folder appears empty or the path is incorrect. Do not attempt to synthesise from memory.
+- **No sources found in specified folder** — stop immediately. Tell Josh the folder appears empty or the path is incorrect. Do not attempt to synthesise from memory.
 - **Sources unreadable (corrupt, wrong format)** — flag at Gate 2. Do not skip silently.

@@ -74,7 +74,7 @@ If no connection to live work exists, state that. Do not manufacture relevance.]
 ## Action Items
 [Concrete next steps only. Format each as: [Owner if known] — [Specific action] — [Timeframe]
 
-Acceptable: "Simon — add parametric re-insurance angle to Company X DD — this week"
+Acceptable: "Josh — add parametric re-insurance angle to Company X DD — this week"
 Not acceptable: "Monitor the space", "Explore further", "Consider implications"
 
 If no clear action emerges from this synthesis, state that. It is useful data — it means
@@ -82,7 +82,7 @@ the reading was either confirmatory or too early-stage to act on.]
 
 ---
 
-## Insight Tweets (optional — add only if Simon confirms at Gate 3)
+## Insight Tweets (optional — add only if Josh confirms at Gate 3)
 [1–3 tweetable insights. Each under 140 characters. No jargon. No context assumed.
 These are for internal sharing, not public posting. They should be standalone.]
 ```

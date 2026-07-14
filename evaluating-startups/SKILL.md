@@ -1,6 +1,6 @@
 ---
 name: evaluating-startups
-description: "Use when a startup has passed initial screening and is entering deeper evaluation. Produces three outputs: a 6-page Evaluation Report (full research base), an Opportunity Brief (IC-ready distillation), and a Sources document. Triggers include: write an opp brief, opportunity brief for [company], evaluate this deeper, let's do a proper eval, prepare this for the team, this one's worth going deeper on, or any time a deal is moving toward IC discussion post-first-meeting. Do not trigger for initial triage — use screening-startups for that. Co-Worker mode: four mandatory Simon-in-the-loop gates."
+description: "Use when a startup has passed initial screening and is entering deeper evaluation. Produces three outputs: a 6-page Evaluation Report (full research base), an Opportunity Brief (IC-ready distillation), and a Sources document. Triggers include: write an opp brief, opportunity brief for [company], evaluate this deeper, let's do a proper eval, prepare this for the team, this one's worth going deeper on, or any time a deal is moving toward IC discussion post-first-meeting. Do not trigger for initial triage — use screening-startups for that. Co-Worker mode: four mandatory Josh-in-the-loop gates."
 ---
 
 <!-- version: 2.0 | tested-on: claude-sonnet-4-6 | calls: pdf -->
@@ -34,13 +34,13 @@ Do not trigger for initial triage or pre-meeting research — that is the screen
 
 **Mode: Co-Worker**
 
-Four mandatory Simon-in-the-loop gates. Do not skip any. Each gate has a clear trigger, a specific question, and a defined consequence.
+Four mandatory Josh-in-the-loop gates. Do not skip any. Each gate has a clear trigger, a specific question, and a defined consequence.
 
 ---
 
 ### Goal
 
-Conduct significantly deeper research than the initial screening phase and produce three outputs: a 6-page Evaluation Report capturing the full research across all analytical dimensions, an Opportunity Brief distilling that research into an IC-ready document incorporating Simon's insider context, and a Sources and Further Reading document. Together, these give the ventures team a complete picture of the deal — the evidence base, the investment case, and the research trail.
+Conduct significantly deeper research than the initial screening phase and produce three outputs: a 6-page Evaluation Report capturing the full research across all analytical dimensions, an Opportunity Brief distilling that research into an IC-ready document incorporating Josh's insider context, and a Sources and Further Reading document. Together, these give the ventures team a complete picture of the deal — the evidence base, the investment case, and the research trail.
 
 ---
 
@@ -48,20 +48,20 @@ Conduct significantly deeper research than the initial screening phase and produ
 
 **Step 1 — Resolve company and create output folder**
 
-Identify the company. Check for an existing screening PDF in `Resources/Output files/` or `Projects/[company-name]/`. Load it if found and flag to Simon that you are building on prior work.
+Identify the company. Check for an existing screening PDF in `Resources/Output files/` or `Projects/[company-name]/`. Load it if found and flag to Josh that you are building on prior work.
 
 Create the output folder: `Resources/Output files/[company-name]/`. If a folder already exists, flag it and use incremented version numbers for all outputs.
 
 **[GATE 1 — Input confirmation]**
 
-Before any research begins, prompt Simon:
+Before any research begins, prompt Josh:
 
 > "Before I start research, please share anything that won't be findable publicly:
 > - Meeting notes, pitch deck, data room materials, or any documents from the founder
 > - Your impressions of the team, product, or deal from the meeting
 > - Any specific angles, concerns, or questions you want the evaluation to focus on"
 
-Do not proceed to Step 2 until Simon responds. If Simon has nothing to add, confirm and continue.
+Do not proceed to Step 2 until Josh responds. If Josh has nothing to add, confirm and continue.
 
 ---
 
@@ -103,11 +103,11 @@ Use the selection guide in the file to inform the proposal.
 
 **[GATE 2 — Framework selection]**
 
-Present the proposal to Simon:
+Present the proposal to Josh:
 
 > "Based on the research, I recommend applying these frameworks: [list with rationale for each]. Which would you like me to apply?"
 
-Apply only the frameworks Simon confirms. Do not proceed to Step 5 until selection is confirmed.
+Apply only the frameworks Josh confirms. Do not proceed to Step 5 until selection is confirmed.
 
 ---
 
@@ -119,11 +119,11 @@ Save draft to `Resources/Output files/[company-name]/[company-name]_evaluation-r
 
 **[GATE 3 — Report review]**
 
-Present the Evaluation Report draft to Simon:
+Present the Evaluation Report draft to Josh:
 
 > "The Evaluation Report draft is ready. Please review before I start the Opportunity Brief. Let me know if you want to proceed as-is or if anything needs to change first."
 
-Do not begin Step 6 until Simon confirms the report is sufficient. If Simon requests changes, revise and re-present before continuing.
+Do not begin Step 6 until Josh confirms the report is sufficient. If Josh requests changes, revise and re-present before continuing.
 
 ---
 
@@ -138,14 +138,14 @@ Save draft to `Resources/Output files/[company-name]/[company-name]_opportunity-
 
 **[GATE 4 — Brief review and final approval]**
 
-Present the Opportunity Brief draft to Simon:
+Present the Opportunity Brief draft to Josh:
 
 > "The Opportunity Brief draft is ready. Two sections need your input before this is final:
 > - Section 4 (Why This Makes Sense for Us): validate BU fit and add any internal context.
 > - Section 6 (Critical Questions): add or swap in questions from your meeting.
 > Once you confirm, I will incorporate your edits and generate all final outputs."
 
-Incorporate Simon's input. Once Simon approves, proceed to Steps 7 and 8 without further check-ins.
+Incorporate Josh's input. Once Josh approves, proceed to Steps 7 and 8 without further check-ins.
 
 ---
 
@@ -176,18 +176,18 @@ All outputs saved to `Resources/Output files/[company-name]/`.
 | Output | Format | File name | Done state |
 |--------|--------|-----------|------------|
 | Evaluation Report | PDF | `[company-name]_evaluation-report_v1.pdf` | All sections complete, signal ratings populated, Executive Summary with clear recommendation |
-| Opportunity Brief | PDF | `[company-name]_opportunity-brief_v1.pdf` | All 7 sections complete, Sections 4 and 6 confirmed by Simon, IC-ready |
+| Opportunity Brief | PDF | `[company-name]_opportunity-brief_v1.pdf` | All 7 sections complete, Sections 4 and 6 confirmed by Josh, IC-ready |
 | Sources and Further Reading | Markdown | `[company-name]_sources_v1.md` | All sources listed, top 10 flagged with reading notes |
 
-Skill is done when all three files are delivered with working links and Simon has approved at Gate 4.
+Skill is done when all three files are delivered with working links and Josh has approved at Gate 4.
 
 ---
 
 ## Failure Modes
 
 - Company cannot be identified → ask for clarification before proceeding
-- Simon provides no input at Gate 1 → confirm explicitly and proceed; do not fabricate insider context
-- Research is too thin at Gate 3 → flag rather than proceeding on weak foundations; tell Simon what is missing and ask whether to do more research or proceed with caveats
-- Simon provides no input for Sections 4 and 6 at Gate 4 → deliver with those sections clearly marked as incomplete; do not fabricate strategic rationale
+- Josh provides no input at Gate 1 → confirm explicitly and proceed; do not fabricate insider context
+- Research is too thin at Gate 3 → flag rather than proceeding on weak foundations; tell Josh what is missing and ask whether to do more research or proceed with caveats
+- Josh provides no input for Sections 4 and 6 at Gate 4 → deliver with those sections clearly marked as incomplete; do not fabricate strategic rationale
 - PDF skill unavailable → deliver formatted markdown and flag the PDF failure
-- Output folder already exists → flag to Simon, use incremented version numbers, do not overwrite
+- Output folder already exists → flag to Josh, use incremented version numbers, do not overwrite

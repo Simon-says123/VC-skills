@@ -59,7 +59,7 @@ Work through every question. If you cannot answer one confidently, flag it in th
 
 - [ ] Are at least 15 sources listed?
 - [ ] Do sources prioritise analysis articles, research reports, and industry commentary over company websites?
-- [ ] Does each source have a 1-sentence note explaining why it's worth Simon reading?
+- [ ] Does each source have a 1-sentence note explaining why it's worth Josh reading?
 - [ ] Are all source URLs live and not paywalled where possible?
 
 ---
