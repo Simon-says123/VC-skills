@@ -3,7 +3,7 @@
 **Status:** Template — customise this file with your own rules.
 
 On first run of synthesising-research, Claude will flag that this file has not been
-customised and prompt Simon to supply his own heuristics. Until then, Claude uses
+customised and prompt Josh to supply his own heuristics. Until then, Claude uses
 the defaults below.
 
 ---

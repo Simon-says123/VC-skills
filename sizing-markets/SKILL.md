@@ -1,6 +1,6 @@
 ---
 name: sizing-markets
-description: Estimate TAM, SAM, and SOM for any market opportunity using top-down and bottom-up methodologies. Use when sizing a market, validating an investment thesis, evaluating a startup's market claims, or preparing investor-ready analysis. Trigger whenever Simon asks "how big is this market", "what's the TAM", "size this opportunity", "is this market big enough", or shares a company or sector with questions about market potential. Also use when market sizing is needed as part of startup evaluation, due diligence, or thesis development — even without an explicit request.
+description: Estimate TAM, SAM, and SOM for any market opportunity using top-down and bottom-up methodologies. Use when sizing a market, validating an investment thesis, evaluating a startup's market claims, or preparing investor-ready analysis. Trigger whenever Josh asks "how big is this market", "what's the TAM", "size this opportunity", "is this market big enough", or shares a company or sector with questions about market potential. Also use when market sizing is needed as part of startup evaluation, due diligence, or thesis development — even without an explicit request.
 ---
 
 <!-- version: 1.0 | tested-on: claude-sonnet-4-6 -->
@@ -26,7 +26,7 @@ Use this skill when the user says or implies:
 
 ## Instructions
 
-**Mode: Co-Worker.** This skill runs through three deliberate gates with Simon before delivering a final output. Do not skip gates.
+**Mode: Co-Worker.** This skill runs through three deliberate gates with Josh before delivering a final output. Do not skip gates.
 
 ---
 
@@ -40,7 +40,7 @@ Produce a rigorous, investor-ready TAM/SAM/SOM analysis using both top-down and 
 
 **Step 1 — [GATE 1: Input confirmation]**
 
-Before any research, pause and confirm the market scope with Simon. Ask:
+Before any research, pause and confirm the market scope with Josh. Ask:
 
 - What is the market or product being sized? (Be specific about the problem space)
 - Who are the target customers? (Segment, size, industry)
@@ -48,7 +48,7 @@ Before any research, pause and confirm the market scope with Simon. Ask:
 - What is the time horizon? (Current sizing, or a future year)
 - Are there any known data sources, constraints, or comparable companies to anchor from?
 
-Wait for Simon's response before proceeding. Do not make assumptions about scope.
+Wait for Josh's response before proceeding. Do not make assumptions about scope.
 
 ---
 
@@ -91,14 +91,14 @@ Document sources and assumptions for every input. Label estimates vs. confirmed 
 
 **Step 4 — [GATE 2: TAM sign-off]**
 
-Present Simon with:
+Present Josh with:
 - Top-down TAM figure + key data source + one-line rationale
 - Bottom-up TAM figure + key assumptions (customer count, pricing, frequency)
-- Reconciliation: how far apart are the two figures? If >50% divergence, flag it explicitly and ask how Simon wants to resolve it
+- Reconciliation: how far apart are the two figures? If >50% divergence, flag it explicitly and ask how Josh wants to resolve it
 - Your recommended TAM figure with reasoning
 - Any data gaps or wide confidence intervals worth flagging
 
-Ask Simon to confirm the TAM and assumptions before continuing to SAM/SOM.
+Ask Josh to confirm the TAM and assumptions before continuing to SAM/SOM.
 
 ---
 
@@ -123,7 +123,7 @@ Document each filter and the percentage applied.
 
 **Step 6 — [GATE 3: Output framing]**
 
-Before writing the report, ask Simon:
+Before writing the report, ask Josh:
 - What is this analysis being used for? (Investor pitch, IC memo, internal strategy, DD on a startup)
 - Is there anything to emphasise or de-emphasise given the audience?
 
@@ -189,8 +189,8 @@ Save to: `Resources/Output files/sizing-markets_[market-name]_v1.pdf`
 
 ## Failure Modes
 
-- **Web search returns no usable data:** Notify Simon. Propose either proceeding with explicitly stated assumptions (labelled [Unverified]) or aborting. Do not fabricate data.
-- **Top-down and bottom-up TAM diverge by >50%:** Flag at Gate 2. Do not average the two blindly. Ask Simon how to resolve before continuing.
-- **Market too nascent for reliable data:** Propose switching to a value-theory methodology (problem cost × willingness to pay × addressable base). Get Simon's approval before proceeding.
-- **PDF skill unavailable:** Deliver output as a markdown file. Flag the format downgrade to Simon and note the intended location.
-- **Simon's scope inputs are ambiguous after Gate 1:** Ask one targeted follow-up question. Do not proceed with ambiguous inputs.
+- **Web search returns no usable data:** Notify Josh. Propose either proceeding with explicitly stated assumptions (labelled [Unverified]) or aborting. Do not fabricate data.
+- **Top-down and bottom-up TAM diverge by >50%:** Flag at Gate 2. Do not average the two blindly. Ask Josh how to resolve before continuing.
+- **Market too nascent for reliable data:** Propose switching to a value-theory methodology (problem cost × willingness to pay × addressable base). Get Josh's approval before proceeding.
+- **PDF skill unavailable:** Deliver output as a markdown file. Flag the format downgrade to Josh and note the intended location.
+- **Josh's scope inputs are ambiguous after Gate 1:** Ask one targeted follow-up question. Do not proceed with ambiguous inputs.

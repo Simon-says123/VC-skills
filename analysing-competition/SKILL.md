@@ -1,6 +1,6 @@
 ---
 name: analysing-competition
-description: "Use this skill to map the competitive landscape for a specific startup under active evaluation. Trigger when Simon says 'competitive analysis for [company]', 'map competitors for this deal', 'who does [company] compete with', 'run competitive research on [company]', 'moat analysis', 'how differentiated is [company]', 'competitive section for IC', or when a pitch deck, company URL, or DD notes are shared with questions about defensibility, market position, or competitive risk. Distinct from competitive-research (sector-level thesis work) — this skill is startup-specific, designed for active DD, and produces IC-ready output importable into deal memo drafting without rework."
+description: "Use this skill to map the competitive landscape for a specific startup under active evaluation. Trigger when Josh says 'competitive analysis for [company]', 'map competitors for this deal', 'who does [company] compete with', 'run competitive research on [company]', 'moat analysis', 'how differentiated is [company]', 'competitive section for IC', or when a pitch deck, company URL, or DD notes are shared with questions about defensibility, market position, or competitive risk. Distinct from competitive-research (sector-level thesis work) — this skill is startup-specific, designed for active DD, and produces IC-ready output importable into deal memo drafting without rework."
 ---
 
 <!-- version: 1.0 | tested-on: claude-sonnet-4-6 -->
@@ -144,7 +144,7 @@ If the anchor question from Gate 1 was provided, answer it directly here.
 **Sources**
 List the top 15 sources consulted, prioritising analysis articles, research reports, and industry commentary
 over company websites or press releases. Format: [Title](URL) — [1-sentence note on why it's worth reading].
-Aim for sources Simon can read to go deeper, not sources that simply confirm the report's findings.
+Aim for sources Josh can read to go deeper, not sources that simply confirm the report's findings.
 
 ---
 

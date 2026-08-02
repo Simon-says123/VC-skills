@@ -47,7 +47,7 @@ claims that are non-obvious or drawn from a specific source. Do not cite general
 Use this when sources conflict. Cite both; surface the disagreement; do not silently
 resolve by picking the higher-ranked source.
 
-1. Primary research — expert calls, DD notes, Simon's direct observations
+1. Primary research — expert calls, DD notes, Josh's direct observations
 2. Proprietary data — paid reports, licensed databases, broker data
 3. Quality journalism — FT, Economist, Bloomberg, Reuters
 4. Academic and policy — peer-reviewed papers, reputable think-tanks

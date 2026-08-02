@@ -67,7 +67,7 @@ For each point, address one or more of:
 
 **Standard:** Every strategic rationale point must pass the "so what" test. Generic statements like "aligns with our innovation strategy" are not acceptable. Be specific about which part of the business benefits and how.
 
-**[Needs Simon's input: validate BU fit and add internal context before finalising this section.]**
+**[Needs Josh's input: validate BU fit and add internal context before finalising this section.]**
 
 ---
 
@@ -99,7 +99,7 @@ Good critical questions:
 
 **Standard:** Each question should be answerable through a specific action (customer call, data room review, expert interview, BU meeting). Vague questions are not useful.
 
-**[Needs Simon's input: add or swap in questions from the meeting or any specific angles on this deal before finalising.]**
+**[Needs Josh's input: add or swap in questions from the meeting or any specific angles on this deal before finalising.]**
 
 ---
 
